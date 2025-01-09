@@ -78,7 +78,7 @@ jobs:
           git config --global user.email "kooa3399@kakao.com"
 
           # 변경 사항 커밋 및 푸시
-          git add kustomize/frontdeploy.yaml
+          git add kustomize/backdeploy.yaml
           git commit -m "Update Kustomize with new image: $IMAGE_URI" || echo "[No changes] Nothing to commit."
           
           # 디버깅 로그 활성화
